@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
 :root {
     --primary-color: #BB70CB;
     --dark-gray: #374151;
@@ -85,6 +89,7 @@ hr {
     font-weight: bold;
     font-size: 1.1rem;
     padding: 0.5rem 0rem 0rem 0rem;
+    
 }
 
 .navigation .nav-pills {
@@ -179,4 +184,7 @@ hr {
     display: block;
     margin-top: 10px ;
     margin-bottom: auto;
+}
+.nav-brand{
+    display: block;
 }
